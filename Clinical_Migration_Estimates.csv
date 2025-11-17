@@ -1,0 +1,60 @@
+Module,Sub-Module,Component,Hours,Type,Details
+PROJECT SUMMARY,,,,,"Total: 480 hours | 60 working days (8h/day) | 3 months (20 days/month)"
+,,,,
+Login,,,4,UI,Complete UI implementation
+,,,,
+SideNav,,,8,UI,Complete UI implementation
+,,,,
+Dashboard,,,38,UI + Backend,"Filters, data grids, and scorecards"
+,Global Filters Setup,,12,UI + Backend,"Module-wise filter configuration (6h UI + 6h Backend for factory setup, JPA filter implementation, config-based filter management)"
+,Data Grid Setup,,16,UI + Backend,"Full data grid with RDS column configuration (8h Frontend + 8h Backend)"
+,Score Cards,,10,UI + Backend,"Chart implementation and backend filter queries (5h UI + 5h Backend)"
+,,,,
+Load Tracker,,,22,UI + Backend,"Filters, data grids, and polling"
+,Filters,,6,Backend,"Query optimization for all filters"
+,Data Grid,,16,UI + Backend,"UI, actions, backend column config, expanded data, polling functionality"
+,,,,
+ID-Based Loader Tracker,,,226,UI + Backend,"Complete tracker system with multiple sub-modules"
+,Tabs,,2,UI,Straightforward implementation
+,Load Tracker Sub-Module,,30,UI + Backend,
+,,Stepper,10,UI,"Build all stepper cards"
+,,Data Grid,20,UI + Backend,"Column configuration in backend + UI implementation"
+,File Tracker,,14,UI + Backend,
+,,Mini Sidebar,4,UI,
+,,Stepper + Data Grid,10,UI + Backend,
+,Mapping,,20,UI + Backend,
+,,Data Grid,8,UI + Backend,"Basic grid implementation"
+,,Popup Data Grid,12,UI + Backend,"Actions and backend configuration"
+,Datasets,,48,UI + Backend,
+,,Tabs + Filters,14,UI,"Tab structure and filter implementation per tab"
+,,Query Builder,10,UI,
+,,Tab Data Grids,24,UI + Backend,"Multiple data grids across tabs"
+,Reports,,96,UI + Backend,
+,,Filters,16,UI + Backend,
+,,Score Cards,8,UI + Backend,"API changes for filter integration"
+,,Data Grids,24,UI + Backend,
+,,Popup Components,24,UI,"Query Builder integration + dropdown rules"
+,Config,,36,UI + Backend,
+,,Tabs + Data Grids,18,UI + Backend,"2 tabs with grid configuration and backend columns"
+,,View Page Data Grids,18,UI + Backend,"New page with data grid and column setup"
+,Related Files,,4,UI,Standard data grid implementation
+,,,,
+Global Config,,,182,UI + Backend,"Multiple configuration modules"
+,ICM Data Grid,,52,UI + Backend,"Complete ICM configuration system"
+,,Data Grid,12,UI + Backend,
+,,Actions,8,UI + Backend,
+,,Action Popups,20,UI + Backend,"Multiple popup data grids"
+,,Validation Rules,12,Backend,"Business logic and validation checks"
+,UCM Data Grid,,52,UI + Backend,"Complete UCM configuration system"
+,,Data Grid,12,UI + Backend,
+,,Actions,8,UI + Backend,
+,,Action Popups,20,UI + Backend,"Multiple popup data grids"
+,,Validation Rules,12,Backend,"Business logic and validation checks"
+,Data Quality,,42,UI + Backend,"Multi-step forms with validation"
+,,Filters/Forms,42,UI + Backend,"Complex multi-step forms, popups, data grids, and form validations"
+,Data Sources,,36,UI + Backend,"Data source management"
+,,Data Grid,12,UI + Backend,
+,,Business Rules,12,Backend,"Validation and business logic"
+,,Grid Features,12,UI,"Filters, reset functionality, column filters"
+,,,,
+TOTAL,,,480,,
